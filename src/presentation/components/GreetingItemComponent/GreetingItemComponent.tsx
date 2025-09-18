@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import CvButton from "../CvButton/CvButton";
+import QuizStarterButton from "../QuizStarterButton/QuizStarterButton";
 
 export const GreetingItemComponent: React.FC = () => {
   const greetingRef = useRef<HTMLDivElement>(null);
@@ -36,18 +36,18 @@ export const GreetingItemComponent: React.FC = () => {
     
       <div className="ml-[5%] mt-[15vw] w-32 flex-1" ref={greetingRef}>
 
-        <span className="text-[3vw] font-bold font-mono">BONJOUR !</span>
+        <span className="text-[3vw] font-bold font-mono">Hello !</span>
         <div className="text-black text-[3vw] font-bold font-mono">
-          Je suis 
-          <span className="ml-[1vw] text-yellow bg-sky-600">Remy Hamed</span>
-          , développeur full-stack.
+          Are you ready for the
+          <span className="ml-[1vw] text-yellow bg-sky-600">QUIZ</span>
+          !!!!!!!!!!!
         </div>
-        <CvButton></CvButton>
+        <QuizStarterButton></QuizStarterButton>
       </div>
       <div className="
         w-32 
         flex-1
-        bg-[url(/assets/ai-generated-8237711_1280.webp)] 
+        bg-[url(/assets/bb2.jpg)] 
         bg-no-repeat
         h-screen
         w-full

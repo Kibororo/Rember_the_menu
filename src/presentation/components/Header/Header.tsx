@@ -58,16 +58,8 @@ function Header() {
                         Accueil
                         <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
                     </p>
-                    <p onClick={() => redirectoTo("/diploma")} className="group text-white">
-                        Diplômes
-                        <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
-                    </p>
-                    <p className="group text-white">
-                        Expérience
-                        <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
-                    </p>
-                    <p onClick={() => redirectoTo("/projects")} className="group text-white">
-                        Projets
+                    <p onClick={() => redirectoTo("/Quiz")} className="group text-white">
+                        Quiz
                         <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
                     </p>
                 </nav>
