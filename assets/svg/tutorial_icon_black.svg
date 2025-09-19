@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg 
+    baseProfile="tiny" 
+    height="200" 
+    version="1.2" 
+    width="200" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:ev="http://www.w3.org/2001/xml-events" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+    <defs />
+    <rect 
+        fill="none" 
+        height="100" 
+        stroke="black" 
+        stroke-width="2" 
+        width="140" 
+        x="30" 
+        y="30" 
+    />
+    <text 
+        fill="black" 
+        font-size="12px" 
+        x="40" 
+        y="60"
+    >
+        $ Code Example
+    </text>
+    <text 
+        fill="black" 
+        font-size="10px" 
+        x="40" 
+        y="80"
+    >
+        print('Hello World')
+    </text>
+    <circle 
+        cx="50" 
+        cy="150" 
+        fill="none" 
+        r="10" 
+        stroke="black" 
+        stroke-width="2" 
+    />
+    <line 
+        stroke="black" 
+        stroke-width="2" 
+        x1="90" 
+        x2="150" 
+        y1="150" 
+        y2="150" 
+    />
+</svg>

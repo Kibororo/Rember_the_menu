@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg 
+    baseProfile="tiny" 
+    height="400" 
+    version="1.2" 
+    width="200" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:ev="http://www.w3.org/2001/xml-events" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+    <defs />
+    <rect 
+        fill="none" 
+        height="300" 
+        rx="15" 
+        ry="15" 
+        stroke="black" 
+        stroke-width="2" 
+        width="100" 
+        x="50" 
+        y="20" 
+    />
+    <rect 
+        fill="none" 
+        height="250" 
+        stroke="black" 
+        stroke-width="2" 
+        width="80" 
+        x="60" 
+        y="40" 
+    />
+    <circle 
+        cx="100" 
+        cy="310" 
+        fill="none" 
+        r="5" 
+        stroke="black" 
+        stroke-width="2" 
+    />
+    <rect 
+        fill="none" 
+        height="20" 
+        stroke="black" 
+        stroke-width="2" 
+        width="20" 
+        x="70" 
+        y="50" 
+    />
+    <rect 
+        fill="none" 
+        height="20" 
+        stroke="black" 
+        stroke-width="2" 
+        width="20" 
+        x="110" 
+        y="50" 
+    />
+</svg>

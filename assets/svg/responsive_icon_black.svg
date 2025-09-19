@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg baseProfile="tiny" height="200" version="1.2" width="200" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs />
+  <rect fill="none" height="70" rx="10" ry="10" stroke="black" stroke-width="2" width="100" x="10" y="10" />
+  <rect fill="none" height="50" rx="5" ry="5" stroke="black" stroke-width="2" width="70" x="40" y="20" />
+  <rect fill="none" height="30" rx="3" ry="3" stroke="black" stroke-width="2" width="30" x="70" y="30" />
+</svg>
