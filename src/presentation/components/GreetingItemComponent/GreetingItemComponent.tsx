@@ -32,31 +32,17 @@ export const GreetingItemComponent: React.FC = () => {
   }, []);
 
   return (
-    <div className="flex mt-0">
-    
-      <div className="ml-[5%] mt-[15vw] w-32 flex-1" ref={greetingRef}>
-
+    <div className="flex flex-col align-content: center; flex mt-0">
+      <div className=" flex align-content: center; ml-[30%] mt-[20vw] w-32 flex-1" ref={greetingRef}>
         <span className="text-[3vw] font-bold font-mono">Hello !</span>
         <div className="text-black text-[3vw] font-bold font-mono">
           Are you ready for the
           <span className="ml-[1vw] text-yellow bg-sky-600">QUIZ</span>
           !!!!!!!!!!!
         </div>
-        <QuizStarterButton></QuizStarterButton>
+
       </div>
-      <div className="
-        w-32 
-        flex-1
-        bg-[url(/assets/bb2.jpg)] 
-        bg-no-repeat
-        h-screen
-        w-full
-        bg-cover
-        bg-center
-        mt-0
-        "
-        ref={illustrationRef}>
-      </div>
+      <QuizStarterButton></QuizStarterButton>
     </div>
   );
 };

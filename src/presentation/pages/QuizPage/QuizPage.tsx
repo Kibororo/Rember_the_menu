@@ -9,7 +9,8 @@ export const CreateQuizPage : React.FC = () : React.ReactNode => {
   const [score, setScore] = useState(0);
 
   const handleResult = (result: number) => {
-    setScore((prev) => prev + result);
+    setScore((score) => score + result);
+    console.log("Current score:", score + result);
   };
     return (
         <>
