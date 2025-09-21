@@ -32,10 +32,10 @@ export const GreetingItemComponent: React.FC = () => {
   }, []);
 
   return (
-    <div className="flex flex-col align-content: center; flex mt-0">
+    <div className="flex flex-col align-content: center; flex mt-[15vw]" >
       <div className=" flex align-content: center; ml-[30%] mt-[20vw] w-32 flex-1" ref={greetingRef}>
-        <span className="text-[3vw] font-bold font-mono">Hello !</span>
-        <div className="text-black text-[3vw] font-bold font-mono">
+        <span className="text-[3vw] font-bold font-mono pt-[5vw]">Hello ! </span>
+        <div className="text-black text-[3vw] font-bold font-mono mt-[15vw]">
           Are you ready for the
           <span className="ml-[1vw] text-yellow bg-sky-600">QUIZ</span>
           !!!!!!!!!!!

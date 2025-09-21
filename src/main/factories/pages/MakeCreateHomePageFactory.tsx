@@ -1,8 +1,8 @@
 import { useBreakpoint } from "../../../hooks/usebreakPoint";
-import { CreateHomeDesktop } from "../../../presentation/pages/HomePage/CreateHomeDesktop";
-import { CreateHomeLaptop } from "../../../presentation/pages/HomePage/CreateHomeLaptop";
-import { CreateHomeMobile } from "../../../presentation/pages/HomePage/CreateHomeMobile";
-import { CreateHomeTablet } from "../../../presentation/pages/HomePage/CreateHomeTablet";
+import { CreateHomeDesktop } from "../../../presentation/pages/HomePage/CreatHomeDesktop";
+import { CreateHomeLaptop } from "../../../presentation/pages/HomePage/CreatHomeLaptop";
+import { CreateHomeMobile } from "../../../presentation/pages/HomePage/CreatHomeMobile";
+import { CreateHomeTablet } from "../../../presentation/pages/HomePage/CreatHomeTablet";
 
 export const makeCreateHomePageFactory :React.FC =  (): React.ReactNode => {
     const bp = useBreakpoint();

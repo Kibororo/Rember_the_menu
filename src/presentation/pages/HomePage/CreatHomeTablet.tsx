@@ -1,10 +1,10 @@
 import { useEffect, useRef } from "react";
 import { GreetingItemComponent } from "../../components/GreetingItemComponent/GreetingItemComponent";
+import Header from "../../components/Header/Header";
 import { gsap } from "gsap";
-import HeaderPhone from "../../components/HeaderPhone/HeaderPhone";
 
-export const CreateHomeMobile: React.FC = () :React.ReactNode => {
-     const pageTitle = useRef<HTMLDivElement>(null);
+export const CreateHomeTablet: React.FC = (): React.ReactNode => {
+  const pageTitle = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!pageTitle.current) return;
@@ -20,22 +20,22 @@ export const CreateHomeMobile: React.FC = () :React.ReactNode => {
     return () => {
       tl.kill();
     };
-  }, []); 
-    return(
-        <>
-        <HeaderPhone/>
-            <h1  
-                ref={pageTitle}
-                className="
+  }, []);
+  return (
+    <>
+      <Header></Header>
+      <h1
+        ref={pageTitle}
+        className="
                     absolute 
                     text-[7vw] 
                     font-bold 
                     font-mono
                     ml-[25vw]
                     mt-10"
-                    
-            >Home</h1>
-            <GreetingItemComponent></GreetingItemComponent>
-        </>
-    );
+
+      >Home</h1>
+      <GreetingItemComponent></GreetingItemComponent>
+    </>
+  );
 }

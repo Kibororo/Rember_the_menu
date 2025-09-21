@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Header from "../../components/Header/Header";
 import Questionner from "../../components/Questionner/Questionner";
+import HeaderPhone from "../../components/HeaderPhone/HeaderPhone";
 
-export const CreateQuizPage : React.FC = () : React.ReactNode => {
+export const CreatQuizPhonePage : React.FC = () : React.ReactNode => {
     const wordFr :string = "Porc sauté au kimchi";
     const word_korean :string = "Doeji kimchi";
 
@@ -14,7 +14,7 @@ export const CreateQuizPage : React.FC = () : React.ReactNode => {
   };
     return (
         <>
-          <Header />
+          <HeaderPhone/>
           <Questionner  
             wordFr={wordFr} 
             word_korean={word_korean}

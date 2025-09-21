@@ -39,3 +39,5 @@ export const CreateHomeDesktop: React.FC = () :React.ReactNode => {
         </>
     );
 }
+
+export default CreateHomeDesktop;
