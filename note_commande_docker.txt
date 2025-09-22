@@ -1,0 +1,46 @@
+Gestion des IMAGES
+# Créer une image depuis un Dockerfile
+docker build -t nom_image .
+
+# Afficher la liste des images
+docker images
+
+# Supprimer une image
+docker rmi nom_image
+
+Gestion des CONTAINERS
+# Créer et démarrer un container
+docker run -d --nom_container nom_image
+
+# Démarrer un container existant
+docker start nom_container
+
+# Arrêter un container
+docker stop nom_container
+
+# Supprimer un container
+docker rm nom_container
+
+Variantes utiles
+# Créer avec port mapping
+docker run -d -p 8080:80 --nom_container nom_image
+
+# Voir les containers en cours
+docker ps
+
+# Voir tous les containers
+docker ps -a
+
+# Supprimer container + volume
+docker rm -v nom_container
+
+# Supprimer image forcée
+docker rmi -f nom_image
+
+Tips :
+
+    -d = détaché (arrière-plan)
+
+    -p HOTE:CONTENEUR = mapping de ports
+
+    --nom_container = optionnel (Docker génère un nom sinon)

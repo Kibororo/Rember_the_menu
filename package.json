@@ -11,7 +11,8 @@
     "preview": "vite preview",
     "gh-preview": "npx serve dist",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "d:p": "npm run build && docker build -t remenber_menu . && docker stop remenber_menu || true && docker rm remenber_menu || true && docker run -d --name remenber_menu -p 8080:80 remenber_menu"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
@@ -36,5 +37,8 @@
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.34.1",
     "vite": "^7.0.0"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-musl": "4.9.5"
   }
 }
