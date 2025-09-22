@@ -44,3 +44,12 @@ Tips :
     -p HOTE:CONTENEUR = mapping de ports
 
     --nom_container = optionnel (Docker génère un nom sinon)
+
+
+    # Terminal 1 - Lance l'application
+docker-compose up
+
+# Terminal 2 - Pour vos commandes
+docker-compose exec web bash
+# ou
+npm run build  # depuis votre machine
