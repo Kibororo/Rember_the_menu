@@ -23,19 +23,11 @@ export const CreateHomeDesktop: React.FC = () :React.ReactNode => {
   }, []); 
     return(
         <>
+
+          <div className="relative h-[100vh] w-[100vw] bg-[#f5f5f5]">
             <Header></Header>
-            <h1  
-                ref={pageTitle}
-                className="
-                    absolute 
-                    text-[7vw] 
-                    font-bold 
-                    font-mono
-                    ml-[25vw]
-                    mt-10"
-                    
-            >Home</h1>
             <GreetingItemComponent></GreetingItemComponent>
+          </div>
         </>
     );
 }
