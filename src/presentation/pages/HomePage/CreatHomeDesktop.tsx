@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
-import { GreetingItemComponent } from "../../components/GreetingItemComponent/GreetingItemComponent";
 import Header from "../../components/Header/Header";
 import { gsap } from "gsap";
+import { GreetingItemDesktopComponent } from "../../components/GreetingItemComponent/GreetingItemDesktopComponent";
 
 export const CreateHomeDesktop: React.FC = () :React.ReactNode => {
      const pageTitle = useRef<HTMLDivElement>(null);
@@ -23,10 +23,9 @@ export const CreateHomeDesktop: React.FC = () :React.ReactNode => {
   }, []); 
     return(
         <>
-
           <div className="relative h-[100vh] w-[100vw] bg-[#f5f5f5]">
             <Header></Header>
-            <GreetingItemComponent></GreetingItemComponent>
+            <GreetingItemDesktopComponent></GreetingItemDesktopComponent>
           </div>
         </>
     );

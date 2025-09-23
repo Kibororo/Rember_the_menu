@@ -29,7 +29,8 @@ export const HeaderPhone: React.FC = () => {
                 justify-center
                 gap-[0.2vw]
                 overflow-hidden
-                ${isFullscreen ? "fixed top-0 left-0 w-full h-screen z-50 mt-0" : " absolute w-100 h-[12vw]"}
+                w-full
+                ${isFullscreen ? "fixed top-0 left-0 h-screen z-50 mt-0" : " absolute w-100 h-[12vw]"}
                 `}
         >
             <div

@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
-import { GreetingItemComponent } from "../../components/GreetingItemComponent/GreetingItemComponent";
 import { gsap } from "gsap";
 import HeaderPhone from "../../components/HeaderPhone/HeaderPhone";
+import { GreetingItemPhoneComponent } from "../../components/GreetingItemComponent/GreetingItemPhoneComponent";
 
 export const CreateHomeMobile: React.FC = () :React.ReactNode => {
      const pageTitle = useRef<HTMLDivElement>(null);
@@ -23,19 +23,10 @@ export const CreateHomeMobile: React.FC = () :React.ReactNode => {
   }, []); 
     return(
         <>
-        <HeaderPhone/>
-            <h1  
-                ref={pageTitle}
-                className="
-                    absolute 
-                    text-[7vw] 
-                    font-bold 
-                    font-mono
-                    ml-[25vw]
-                    pt-[15vw]"
-                    
-            >Home</h1>
-            <GreetingItemComponent/>
+          <div className="relative h-[100vh] w-[100vw] bg-[#f5f5f5]">
+            <HeaderPhone></HeaderPhone>
+            <GreetingItemPhoneComponent></GreetingItemPhoneComponent>
+          </div>
         </>
     );
 }

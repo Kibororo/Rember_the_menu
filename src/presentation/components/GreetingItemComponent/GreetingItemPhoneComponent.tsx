@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import QuizStarterButton from "../QuizStarterButton/QuizStarterButton";
 
-export const GreetingItemComponent: React.FC = () => {
+export const GreetingItemPhoneComponent: React.FC = () => {
   const greetingRef = useRef<HTMLDivElement>(null);
   const illustrationRef = useRef<HTMLDivElement>(null);
  
@@ -32,8 +32,8 @@ export const GreetingItemComponent: React.FC = () => {
   }, []);
 
   return (
-    <div className="flex flex-col align-content: center; flex mt-[5vw]" >
-      <div className=" flex align-content: center; ml-[30%] mt-[10vw] w-32 flex-1" ref={greetingRef}>
+    <div className="flex flex-col align-content: center; flex" >
+      <div className=" flex align-content: center; ml-[30%] mt-[20vw] w-32 flex-1" ref={greetingRef}>
         <div className="text-black text-[3vw] font-bold font-mono">
           Hello ! Are you ready for the
           <span className="ml-[1vw] text-yellow bg-sky-600">

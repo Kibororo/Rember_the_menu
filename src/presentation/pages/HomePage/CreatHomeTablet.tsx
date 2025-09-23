@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { GreetingItemComponent } from "../../components/GreetingItemComponent/GreetingItemComponent";
+import { GreetingItemComponent } from "../../components/GreetingItemComponent/GreetingItemPhoneComponent";
 import Header from "../../components/Header/Header";
 import { gsap } from "gsap";
 
