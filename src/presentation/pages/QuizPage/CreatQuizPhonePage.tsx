@@ -1,26 +1,42 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Questionner from "../../components/Questionner/Questionner";
 import HeaderPhone from "../../components/HeaderPhone/HeaderPhone";
+import meals from "../../../file/meals.json";
+import { log } from "console";
 
 export const CreatQuizPhonePage : React.FC = () : React.ReactNode => {
-    const wordFr :string = "Porc sauté au kimchi";
-    const word_korean :string = "Doeji kimchi";
-
+  let index = 0;
+  const mealsList = meals.sort(() => Math.random() - 0.5);
   const [score, setScore] = useState(0);
+
+  console.log(mealsList);
 
   const handleResult = (result: number) => {
     setScore((score) => score + result);
     console.log("Current score:", score + result);
   };
-    return (
-        <>
-          <HeaderPhone/>
-          <Questionner  
-            wordFr={wordFr} 
-            word_korean={word_korean}
-            onResult={handleResult} 
-          />
-        </>
-    );
+
+  useEffect(() => {
+    localStorage.setItem("score", score.toString());
+    localStorage.setItem("mealsList", JSON.stringify(mealsList));
+    index++;
+    if (index > mealsList.length - 1) {
+      index = 0;
+    }
+    localStorage.setItem("index", index.toString());
+
+  }, [score]);
+  
+  return (
+      <>
+        <HeaderPhone/>
+        <h1>{score}</h1>
+        <Questionner  
+          wordFr={mealsList[index].nom_francais} 
+          word_korean={mealsList[index].prononciation_coreen}
+          onResult={handleResult} 
+        />
+      </>
+  );
 
 }

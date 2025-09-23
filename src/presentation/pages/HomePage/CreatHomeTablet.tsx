@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { GreetingItemComponent } from "../../components/GreetingItemComponent/GreetingItemPhoneComponent";
+import { GreetingItemDesktopComponent } from "../../components/GreetingItemComponent/GreetingItemDesktopComponent";
 import Header from "../../components/Header/Header";
 import { gsap } from "gsap";
 
@@ -35,7 +35,7 @@ export const CreateHomeTablet: React.FC = (): React.ReactNode => {
                     mt-10"
 
       >Home</h1>
-      <GreetingItemComponent></GreetingItemComponent>
+      <GreetingItemDesktopComponent></GreetingItemDesktopComponent>
     </>
   );
 }

@@ -3,6 +3,7 @@ import Header from "../../components/Header/Header";
 import { gsap } from "gsap";
 import { GreetingItemDesktopComponent } from "../../components/GreetingItemComponent/GreetingItemDesktopComponent";
 
+
 export const CreateHomeDesktop: React.FC = () :React.ReactNode => {
      const pageTitle = useRef<HTMLDivElement>(null);
 

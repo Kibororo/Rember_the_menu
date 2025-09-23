@@ -1,10 +1,13 @@
 import { useState } from "react";
 import Header from "../../components/Header/Header";
 import Questionner from "../../components/Questionner/Questionner";
+import meals from "../../../file/meals.json";
 
 export const CreatQuizDesktopPage: React.FC = (): React.ReactNode => {
-    const wordFr: string = "Porc sauté au kimchi";
-    const word_korean: string = "Doeji kimchi";
+    let index = 0;
+    const mealsList = meals.sort(() => Math.random() - 0.5);
+
+    console.log(mealsList);
 
     const [score, setScore] = useState(0);
 
@@ -13,14 +16,16 @@ export const CreatQuizDesktopPage: React.FC = (): React.ReactNode => {
         console.log("Current score:", score + result);
     };
     return (
-        <>
-            <Header />
-            <Questionner
-                wordFr={wordFr}
-                word_korean={word_korean}
-                onResult={handleResult}
-            />
-        </>
+      <>
+        <Header/>
+        <h1>{score}</h1>
+        <Questionner  
+          frenchName={mealsList[index].frenchName} 
+          koreanPronounciation={mealsList[index].koreanPronounciation}
+          koreanName={mealsList[index].koreanName}
+          onResult={handleResult} 
+        />
+      </>
     );
 
 }

@@ -1,0 +1,35 @@
+PLATS
+Tous nos plats sont accompagnés d'un assortiment de légumes à partager.
+Soupe de raviolis
+만두국
+餃子スープ
+15,50 €
+Soupe de raviolis avec rondelles de pâte de riz 16,50 €
+떡만두국
+韓国餅入り餃子スープ
+Ragoût de bœuf avec poireaux
+육개장
+ユッケジャン(辛口牛肉スープ)
+18,00 €
+Ragoût de cabillaud
+대구탕
+真鯛のスープ
+19,00€
+Bibimbap
+(Riz mélangé à un assortiment
+de légumes et boeuf)
+비빔밥
+15,50 €
+ビビンバ
+Bibimbap en pierrade (Bœuf)
+돌솥비빔밥(소고기)
+牛肉の石焼ビビンパ
+17,00 €
+Bibimbap au poulet
+돌솥비빔밥(닭고기)
+鶏肉の石焼ビビンバ
+17,00 €
+✔Bibimbap végétarien au tofu
+돌솥비빔밥(고기 대신 두부)
+豆腐入り石焼ビビンバ
+17,00 €

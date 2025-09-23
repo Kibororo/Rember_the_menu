@@ -1,0 +1,257 @@
+[
+  {
+    "frenchName": "menu bibimbap (pour bibimbap froid",
+    "koreanName": "메뉴 비빔밥",
+    "koreanPronounciation": "me-nyu bi-bim-bab"
+  },
+  {
+    "frenchName": "menu dolsot (pour bibimbap chaud)",
+    "koreanName": "메뉴 돌솥",
+    "koreanPronounciation": "me-nyu dol-sot"
+  },
+  {
+    "frenchName": "bulgogi + salade + riz (midi)",
+    "koreanName": "불고기 + 샐러드 + 밥",
+    "koreanPronounciation": "bul-go-gi + sel-leo-deu + bap"
+  },
+  {
+    "frenchName": "Salade maison",
+    "koreanName": "냉채",
+    "koreanPronounciation": "naeng-chae"
+  },
+  {
+    "frenchName": "Salade de méduse aux concombres",
+    "koreanName": "해파리냉채",
+    "koreanPronounciation": "hae-pa-ri naeng-chae"
+  },
+  {
+    "frenchName": "Salade de bulot pimenté",
+    "koreanName": "소라무침",
+    "koreanPronounciation": "so-ra-mu-chim"
+  },
+  {
+    "frenchName": "Porc sauté au kimchi à la sauce pimentée",
+    "koreanName": "돼지김치볶음",
+    "koreanPronounciation": "dwae-ji-gim-chi-bokkeum"
+  },
+  {
+    "frenchName": "Calamars sautés aux légumes à la sauce pimentée",
+    "koreanName": "오징어볶음",
+    "koreanPronounciation": "o-jing-eo-bokkeum"
+  },
+  {
+    "frenchName": "Crêpe au kimchi (avec ou sans viande)",
+    "koreanName": "김치전",
+    "koreanPronounciation": "gim-chi-jeon"
+  },
+  {
+    "frenchName": "Poitrine de porc bouillie, Kimchi avec de l'huître, Tofu",
+    "koreanName": "보쌈",
+    "koreanPronounciation": "bo-ssam"
+  },
+  {
+    "frenchName": "Pâte de riz et pâte de poisson sautées à la sauce pimentée",
+    "koreanName": "떡볶이",
+    "koreanPronounciation": "tteok-bokki"
+  },
+  {
+    "frenchName": "FORMULE BULGOGI - Bulgogi + salade + riz",
+    "koreanName": "불고기 + 샐러드 + 밥",
+    "koreanPronounciation": "bul-go-gi + sel-leo-deu + bap"
+  },
+  {
+    "frenchName": "FORMULE POULET (uniquement disponible en semaine) - Poulet grillé",
+    "koreanName": "여름에만 가능 메뉴 닭갈비",
+    "koreanPronounciation": "yeo-reum-e-man ga-neung me-nyu dak-gal-bi"
+  },
+  {
+    "frenchName": "Crêpe coréenne aux lentilles",
+    "koreanName": "빈대떡",
+    "koreanPronounciation": "bin-dae-tteok"
+  },
+  {
+    "frenchName": "Raviolis cuits à l'eau (Porc et légumes)",
+    "koreanName": "물만두",
+    "koreanPronounciation": "mul-man-du"
+  },
+  {
+    "frenchName": "Raviolis frits (Porc et légumes)",
+    "koreanName": "군만두",
+    "koreanPronounciation": "gun-man-du"
+  },
+  {
+    "frenchName": "Vermicelles de patate douce sautées aux légumes",
+    "koreanName": "잡채",
+    "koreanPronounciation": "jap-chae"
+  },
+  {
+    "frenchName": "Ailes de poulet frites à la coréenne (Sauce soja et ail)",
+    "koreanName": "깐풍기",
+    "koreanPronounciation": "kkan-pung-gi"
+  },
+  {
+    "frenchName": "Assortiment de fritures (Surimi, Poisson blanc, Crevette, Crêpe aux lentilles, Courgette)",
+    "koreanName": "모듬전",
+    "koreanPronounciation": "mo-deum-jeon"
+  },
+  {
+    "frenchName": "Crêpe coréenne à la ciboulette et aux fruits de mer",
+    "koreanName": "파전",
+    "koreanPronounciation": "pa-jeon"
+  },
+  {
+    "frenchName": "Steak tartare coréen",
+    "koreanName": "육회",
+    "koreanPronounciation": "yuk-hoe"
+  },
+  {
+    "frenchName": "Beignets de crevettes et de patates douces",
+    "koreanName": "새우튀김",
+    "koreanPronounciation": "sae-u-twi-gim"
+  },
+  {
+    "frenchName": "Bœuf frit à la sauce aigre-douce",
+    "koreanName": "탕수육",
+    "koreanPronounciation": "tang-su-yuk"
+  },
+  {
+    "frenchName": "Calamars frits à la sauce aigre-douce",
+    "koreanName": "오징어탕수육",
+    "koreanPronounciation": "o-jing-eo tang-su-yuk"
+  },
+  {
+    "frenchName": "Poitrine de porc grillée",
+    "koreanName": "삼겹살",
+    "koreanPronounciation": "sam-gyeop-sal"
+  },
+  {
+    "frenchName": "Langue de bœuf grillée",
+    "koreanName": "우설구이",
+    "koreanPronounciation": "u-seol-gu-i"
+  },
+  {
+    "frenchName": "Soupe de raviolis",
+    "koreanName": "만두국",
+    "koreanPronounciation": "man-du-guk"
+  },
+  {
+    "frenchName": "Soupe de raviolis avec rondelles de pâte de riz",
+    "koreanName": "떡만두국",
+    "koreanPronounciation": "tteok-man-du-guk"
+  },
+  {
+    "frenchName": "Ragoût de bœuf avec poireaux",
+    "koreanName": "육개장",
+    "koreanPronounciation": "yuk-gae-jang"
+  },
+  {
+    "frenchName": "Ragoût de cabillaud",
+    "koreanName": "대구탕",
+    "koreanPronounciation": "dae-gu-tang"
+  },
+  {
+    "frenchName": "Bibimbap froid (Riz mélangé à un assortiment de légumes et boeuf)",
+    "koreanName": "비빔밥",
+    "koreanPronounciation": "bi-bim-bap"
+  },
+  {
+    "frenchName": "Bibimbap en pierrade (Bœuf)",
+    "koreanName": "돌솥비빔밥(소고기)",
+    "koreanPronounciation": "dol-sot-bi-bim-bap (so-go-gi)"
+  },
+  {
+    "frenchName": "Bibimbap au poulet",
+    "koreanName": "돌솥비빔밥(닭고기)",
+    "koreanPronounciation": "dol-sot-bi-bim-bap (dak-go-gi)"
+  },
+  {
+    "frenchName": "Bibimbap végétarien au tofu",
+    "koreanName": "돌솥비빔밥(고기 대신 두부)",
+    "koreanPronounciation": "dol-sot-bi-bim-bap (go-gi dae-sin du-bu)"
+  },
+  {
+    "frenchName": "Ragoût de kimchi avec tofu et porc",
+    "koreanName": "김치찌개",
+    "koreanPronounciation": "gim-chi-jji-gae"
+  },
+  {
+    "frenchName": "Ragoût de pâte de soja fermentée au porc et coques",
+    "koreanName": "된장찌개",
+    "koreanPronounciation": "doen-jang-jji-gae"
+  },
+  {
+    "frenchName": "Ragoût de tofu soyeux (Soupe à base de coques)",
+    "koreanName": "순두부찌개",
+    "koreanPronounciation": "sun-du-bu-jji-gae"
+  },
+  {
+    "frenchName": "Crabe cru à la sauce pimentée fermentée (Non décortiqué)",
+    "koreanName": "게장백반",
+    "koreanPronounciation": "ge-jang-baek-ban"
+  },
+  {
+    "frenchName": "Pot-au-feu de coquelet farci (Riz, Ginseng, Ail, Pignon, Jujube)",
+    "koreanName": "삼계탕",
+    "koreanPronounciation": "sam-gye-tang"
+  },
+  {
+    "frenchName": "Daurade mijotée à la sauce pimentée",
+    "koreanName": "도미조림",
+    "koreanPronounciation": "do-mi-jo-rim"
+  },
+  {
+    "frenchName": "Nouilles froides coréennes à la sauce pimentée (Disponible uniquement l'été)",
+    "koreanName": "비빔냉면",
+    "koreanPronounciation": "bi-bim-naeng-myeon"
+  },
+  {
+    "frenchName": "Ragoût de fruits de mer",
+    "koreanName": "해물전골",
+    "koreanPronounciation": "hae-mul-jeon-gol"
+  },
+  {
+    "frenchName": "Ragoût de boyaux de porc et légumes",
+    "koreanName": "돼지 곱창 전골",
+    "koreanPronounciation": "dwae-ji gop-chang jeon-gol"
+  },
+  {
+    "frenchName": "Poulet au barbecue coréen",
+    "koreanName": "닭갈비",
+    "koreanPronounciation": "dak-gal-bi"
+  },
+  {
+    "frenchName": "Porc au barbecue coréen",
+    "koreanName": "돼지불고기",
+    "koreanPronounciation": "dwae-ji-bul-go-gi"
+  },
+  {
+    "frenchName": "Porc au barbecue coréen avec calamars",
+    "koreanName": "삼삼오불고기",
+    "koreanPronounciation": "sam-sam-o-bul-go-gi"
+  },
+  {
+    "frenchName": "Bœuf au barbecue coréen",
+    "koreanName": "불고기",
+    "koreanPronounciation": "bul-go-gi"
+  },
+  {
+    "frenchName": "Bœuf au barbecue coréen avec champignons",
+    "koreanName": "버섯불고기",
+    "koreanPronounciation": "beo-seot-bul-go-gi"
+  },
+  {
+    "frenchName": "Bœuf au barbecue coréen avec calamars",
+    "koreanName": "오징어불고기",
+    "koreanPronounciation": "o-jing-eo-bul-go-gi"
+  },
+  {
+    "frenchName": "Boeuf au barbecue coréen avec calamars et champignons",
+    "koreanName": "오징어버섯불고기",
+    "koreanPronounciation": "o-jing-eo-beo-seot-bul-go-gi"
+  },
+  {
+    "frenchName": "Canard au barbecue coréen",
+    "koreanName": "오리불고기",
+    "koreanPronounciation": "o-ri-bul-go-gi"
+  }
+]
