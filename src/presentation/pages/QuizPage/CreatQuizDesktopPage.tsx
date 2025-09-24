@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Header from "../../components/Header/Header";
 import Questionner from "../../components/Questionner/Questionner";
 import meals from "../../../file/meals.json";
@@ -15,6 +15,17 @@ export const CreatQuizDesktopPage: React.FC = (): React.ReactNode => {
         setScore((score) => score + result);
         console.log("Current score:", score + result);
     };
+
+    useEffect(() => {
+        localStorage.setItem("score", score.toString());
+        localStorage.setItem("mealsList", JSON.stringify(mealsList));
+        index++;
+        if (index > mealsList.length - 1) {
+          index = 0;
+        }
+        localStorage.setItem("index", index.toString());
+    
+      }, [score]);
     return (
       <>
         <Header/>

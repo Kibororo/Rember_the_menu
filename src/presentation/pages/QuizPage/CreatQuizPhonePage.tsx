@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import Questionner from "../../components/Questionner/Questionner";
 import HeaderPhone from "../../components/HeaderPhone/HeaderPhone";
 import meals from "../../../file/meals.json";
-import { log } from "console";
 
 export const CreatQuizPhonePage : React.FC = () : React.ReactNode => {
   let index = 0;
@@ -32,8 +31,9 @@ export const CreatQuizPhonePage : React.FC = () : React.ReactNode => {
         <HeaderPhone/>
         <h1>{score}</h1>
         <Questionner  
-          wordFr={mealsList[index].nom_francais} 
-          word_korean={mealsList[index].prononciation_coreen}
+          frenchName={mealsList[index].frenchName} 
+          koreanPronounciation={mealsList[index].koreanPronounciation}
+          koreanName={mealsList[index].koreanName}
           onResult={handleResult} 
         />
       </>

@@ -1,6 +1,7 @@
 import { useState } from "react";
-import Modal_bad_answer from "../modal_wrong_answer/modal_bad_answer";
-import Modal_good_answer from "../modal_good_answer/modal_good_answer";
+import Modal_good_answer from "../modal_good_answer/Modal_good_answer";
+import Modal_bad_answer from "../modal_wrong_answer/Modal_bad_answer";
+
 
 
 interface QuestionnerProps {
@@ -15,12 +16,13 @@ const Questionner =({ frenchName, koreanPronounciation, koreanName, onResult }: 
     const [openWrongAnswerModal, setOpenWrongAnswerModal] = useState(false);
     const [openGoodAnswerModal, setOpenGoodAnswerModal] = useState(false);
 
-    console.log(frenchName, koreanPronounciation, koreanName);
-
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
 
-        if (input.trim() === koreanPronounciation.trim()) {
+        console.log("User input:", input);
+        console.log("Expected answer:", koreanPronounciation.replace(/-/g, "").toLowerCase().trim());
+
+        if (input.toLocaleLowerCase().trim() === koreanPronounciation.toLowerCase().replace(/-/g, "") .trim()) {
             setOpenGoodAnswerModal(true); // Corrected from setOpen to open the modal
             console.log("Correct answer");
             onResult(1);
@@ -58,7 +60,7 @@ const Questionner =({ frenchName, koreanPronounciation, koreanName, onResult }: 
             <Modal_good_answer isOpen={openGoodAnswerModal} onClose={() => setOpenGoodAnswerModal(false)}>
                 <h2 className="text-xl font-bold">Hello 👋</h2>
 
-                <p>Ceci est le contenu de ma modal.</p>
+                <p>Bonne réponse tu est vraiment super fort(e).</p>
             </Modal_good_answer>
             <Modal_bad_answer isOpen={openWrongAnswerModal} onClose={() => setOpenWrongAnswerModal(false)}>
                 <h2 className="text-xl font-bold">Hello 👋</h2>
